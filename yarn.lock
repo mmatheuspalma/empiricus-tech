@@ -4660,6 +4660,13 @@ fast-levenshtein@^2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-xml-parser@^3.19.0:
+  version "3.20.3"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-3.20.3.tgz#c171425356d4d929efeca4e4f67f24231a31c786"
+  integrity sha512-FfHJ/QCpo4K2gquBX7dIAcmShSBG4dMtYJ3ghSiR4w7YqlUujuamrM57C+mKLNWS3mvZzmm2B2Qx8Q6Gfw+lDQ==
+  dependencies:
+    strnum "^1.0.4"
+
 fastest-levenshtein@^1.0.12:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/fastest-levenshtein/-/fastest-levenshtein-1.0.12.tgz#9990f7d3a88cc5a9ffd1f1745745251700d497e2"
@@ -8667,6 +8674,14 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+rss-to-json@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/rss-to-json/-/rss-to-json-2.0.2.tgz#43508b91054ff31a5cdb34e214b0060d8e4ce58a"
+  integrity sha512-tthD3OKROZWSC11AGJ/Qs8bjbHbnjkwC4n3EQSdvLJE3lf/b4AKEyg/ayyjv+1f+O/KF6oEmufEvyJFN0q622w==
+  dependencies:
+    axios "^0.21.1"
+    fast-xml-parser "^3.19.0"
+
 run-async@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
@@ -9318,6 +9333,11 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
+
+strnum@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/strnum/-/strnum-1.0.4.tgz#e97e36a7d6ba9f93d0d6b496b2ed0678d422832b"
+  integrity sha512-lMzNMfDpaQOLt4B2mEbfzYS0+T7dvCXeojnlGf6f1AygvWDMcWyXYaLbyICfjVu29sErR8fnRagQfBW/N/hGgw==
 
 style-resources-loader@^1.4.1:
   version "1.4.1"
@@ -10196,6 +10216,11 @@ vuex-class@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/vuex-class/-/vuex-class-0.3.2.tgz#c7e96a076c1682137d4d23a8dcfdc63f220e17a8"
   integrity sha512-m0w7/FMsNcwJgunJeM+wcNaHzK2KX1K1rw2WUQf7Q16ndXHo7pflRyOV/E8795JO/7fstyjH3EgqBI4h4n4qXQ==
+
+vuex-module-decorators@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vuex-module-decorators/-/vuex-module-decorators-1.0.1.tgz#d34dafb5428a3636f1c26d3d014c15fc9659ccd0"
+  integrity sha512-FLWZsXV5XAtl/bcKUyQFpnSBtpc3wK/7zSdy9oKbyp71mZd4ut5y2zSd219wWW9OG7WUOlVwac4rXFFDVnq7ug==
 
 vuex@^3.6.2:
   version "3.6.2"

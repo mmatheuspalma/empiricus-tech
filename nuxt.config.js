@@ -1,13 +1,16 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  env: {
+    blogRSSUrl: 'https://medium.com/feed/empiricustech',
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - empiricus-tech',
-    title: 'empiricus-tech',
+    titleTemplate: '%s - Empiricus TECH',
+    title: 'Empiricus TECH',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

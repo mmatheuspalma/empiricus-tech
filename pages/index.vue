@@ -2,87 +2,27 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <v-card class="logo py-4 d-flex justify-center">
-        <NuxtLogo />
-        <VuetifyLogo />
-      </v-card>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
+        <svg width="200" data-v-6620bbae="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3375.1 1000" class="logo"><path data-v-6620bbae="" d="M3247.8 429.9c0-24.2 18.5-41 54.8-41 17.3 0 35.9 3 52.7 8.2l2.6-41.9c-17.7-3-35.4-5.2-52.7-5.2-67.8 0-107.1 35-107.1 85 0 94.1 127.4 68.2 127.3 129.5 0 31.5-25.9 44.9-57.8 44.9-21.2 0-44-4.7-60.4-10.8l-2.6 44.5c16.8 4.3 37.5 6.9 58.7 6.9 69.5 0 111.8-38.9 111.8-92.4 0-91-127.3-69.5-127.3-127.7zM3051.2 350v185.3c0 55.2-21.9 75.3-70.1 75.3-54.8 0-67.9-29.8-67.9-69.2V350h-47.7v194.9c0 54.3 19.7 105.1 112.6 105.1 77.5 0 120-39.4 120-118.3V350h-46.9zM2739.9 593.8c-16.1 7.8-41.8 13.5-61.8 13.5-64 0-93.2-38.8-93.2-107.1 0-61.4 27.9-108.4 89.3-108.4 21.3 0 42.2 3.5 63.6 10l5.2-43.5c-20.5-4.8-43.1-8.3-64.9-8.3-98.8 0-145 66.6-145 158.1 0 78.4 36.1 141.9 134.6 141.9 28.3 0 55.7-5.2 77.9-13.9l-5.7-42.3zM2364.6 350h48.4v300h-48.4zM2166 546.2c-7.5-9.7-16.8-21.2-25.2-31.8 48.6-5.3 84.4-35.8 84.4-83.5 0-59.2-42.4-80.9-104.3-80.9-33.6 0-58.3.4-80 1.8V650h48.1V521h2.2l92.8 129h60.5L2166 546.2zm-76.9-61.4v-94.6c7.1-.4 15.9-.9 25.2-.9 40.2 0 60.5 14.1 60.5 46.8 0 29.6-23.4 49.5-62.3 49.5-10.6 0-19-.4-23.4-.8zM1872.5 350h48.4v300h-48.4zM1643 350c-27.8 0-53.5.9-76.4 1.8V650h48.2V540c7.5.9 15.5.9 22.1.9 69.4 0 115.8-43.3 115.8-101.2-.2-55.2-39-89.7-109.7-89.7zm-7.1 151.1c-7.1 0-14.6-.9-21.2-1.8V390.2c7.9-.9 15.5-.9 24.7-.9 43.3 0 63.2 20.3 63.2 54.3 0 35-26.5 57.1-66.7 57.5zM1395.4 650l-23.6-159.6c-4.9-32-7.1-53.8-9.3-73.3h-.9c-3.6 16.9-8 36.4-15.6 58.7L1289.7 650h-50.2l-53.8-161.8c-8-23.5-15.6-49.3-19.1-71.1h-.9c-1.8 25.8-4.9 49.3-8 77.8L1138.5 650h-49.3l44.9-300h57.8l57.8 173.3c7.1 21.8 12.9 41.8 16.4 61.3h.9c4.5-22.2 9.3-37.3 16.4-59.6l59.1-175.1h58.2l45.8 300-51.1.1zM811 350h158.2v40.4H859.4v85.4h104.5v39.5H859.4v93.4h109.8V650H811z"></path><g data-v-6620bbae=""><path data-v-6620bbae="" fill="#BB0D31" d="M559.3 888.9C539.9 762.8 534 635.1 541.7 508c.9-14.7-3.8-23.2-10.8-19.1-5.1 2.9-10.2 5.9-15.4 8.7 4.5-64.4 12.1-128.6 22.8-192.4 3.4-20.5-2.5-29.5-13.7-20.5-24.7 19.8-49.2 38.8-73.5 57.1 18.7-109.5 47.8-217.7 87.3-323 8.3-22.2 1.5-25-15.7-6.7C464 74.3 406.5 133.6 350.2 189.8c-16.4 16.6-34.1 41.9-39.3 57.2-6.7 19.7-12.8 39.5-18.4 59.5-44.2 38.9-87.6 75.6-130.5 110.1-19.1 15.6-37.1 38.2-39.9 51.1-3.1 14.2-5.9 28.4-8.2 42.7-26 19.3-51.7 37.5-77.1 54.6C21 575.8 7 590.7 5.7 598.9-6.2 672.3.7 748 26.5 818.8c2.9 7.9 19.4 26.6 36.4 41.4 58.2 49.8 114.4 94.5 169 134.1 5.3 3.9 9.6 5.8 12.8 5.8 6.4 0 8.2-7.6 4.1-21-8.8-28.5-16.4-57.2-22.7-86.2 38.1 19.2 75.7 36.3 112.9 51.2 17 7.1 26.2-8.1 21.6-33.4-14.3-77.7-22.4-156.3-24.3-235 11.7-2.3 23.4-4.8 35.1-7.6 1 56.8 5 113.5 12.1 169.9 2 16.1 12 30.4 21.8 31.7 20.7 2.6 41.4 4.5 62 5.7l.1.5c2.1 12.1 9.4 23.3 16.1 24.9 22.9 5.3 45.6 9.5 68.2 12.8 6.5 1 9.8-10.1 7.6-24.7z" class="st0"></path><path data-v-6620bbae="" fill="#980E26" d="M520.3 839.8C509 726 507.6 611.6 515.6 497.6c-18.7 10.5-37.4 20.2-55.9 29.4-6.8 3.5-13 16.1-13.4 28.4-4.3 107 2.6 214.3 21 320.1 13.1.8 26.3 1.2 39.4 1.4 9.7.2 15.6-16.5 13.6-37.1zM411.1 371.2c-10.9 8-21.7 27.2-24 43.2-11.9 84.1-17.2 168.9-15.8 253.6 10.4-2.5 21-5.1 31.4-7.9 12.8-3.3 23-25.2 23.3-48.5 1.4-90.4 9.9-180.6 25.1-270-13.2 10.2-26.7 20.1-40 29.6zM362.4 243.3C339 265 315.6 286 292.5 306.5 260.1 422 244.8 541 246.8 659.8c.2 15.8 11.2 27.9 23.9 26.4 21.8-2.7 43.8-6.2 65.6-10.5-3.4-141.5 13.1-283.4 49.6-421.4 6.7-25-3.5-29.6-23.5-11zM224.1 451.8c2.7-12.5.1-19.1-6-19.1-3.9 0-9.2 2.6-15.5 7.9-29.9 24.7-59.5 48-88.7 69.8-16.6 101.3-13.6 205.2 9.2 305.6 2.9 12.9 20 32 37.6 42.2 21.8 12.3 43.9 23.8 65.4 34.7-31.7-145.4-32.6-295.7-2-441.1z" class="st1"></path></g></svg>
       </v-card>
     </v-col>
   </v-row>
 </template>
 
 <script lang="ts">
+import { namespace } from 'vuex-class';
 import { Component, Vue } from 'vue-property-decorator';
+
+const BlogModule = namespace('blog');
 
 @Component
 export default class Index extends Vue {
-  public mounted() {
-    console.log(`mounted rendered`);
+  @BlogModule.Action
+  private readonly fetchPosts!: ()=> Promise<any>;
+
+  public async mounted() {
+    const rss = await this.fetchPosts();
+
+    console.log(`mounted rendered`, rss);
   }
 }
 </script>

@@ -21,11 +21,13 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
+    "rss-to-json": "^2.0.2",
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2",
     "vuetify": "^2.5.5",
     "vuex": "^3.6.2",
-    "vuex-class": "^0.3.2"
+    "vuex-class": "^0.3.2",
+    "vuex-module-decorators": "^1.0.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
